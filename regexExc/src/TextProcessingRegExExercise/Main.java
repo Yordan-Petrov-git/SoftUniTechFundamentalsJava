@@ -5,7 +5,7 @@
     import java.io.InputStreamReader;
     import java.util.Map;
 
-    public class Main3 {
+    public class Main {
         public static BufferedReader reader =
                 new BufferedReader(
                         new InputStreamReader(
@@ -16,7 +16,7 @@
         public static void main(String[] args) throws IOException {
 
     //=======================================================
-           // 1.	Valid Usernames
+           // 1.	Valid Username
            // validateUsers();
             //=======================================================
 //2.	Character Multiplier
@@ -26,6 +26,8 @@
 //            System.out.println(multiplyChars(firstWord, secondWord));
             //=======================================================
            // 3.	Extract File
+            String text = reader.readLine();
+
             //=======================================================
 
             //=======================================================
